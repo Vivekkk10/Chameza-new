@@ -1,0 +1,197 @@
+.logo {
+    width: 100px;
+    background-color: white;
+    clip-path: circle(49%);
+}
+
+
+.tp-header-tranparent{
+    /* background-color: #ffffffdb; */
+    color: black;
+}
+
+.logo-title {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.tp-header-menu > nav > ul > li span {
+    font-size: 15px !important;
+    /* color: black; */
+}
+
+.tp-slider-3-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial !important;
+}
+
+.tp-slider-3-height{
+    padding-top: 275px !important;
+    padding-bottom: 200px !important;
+    height: 1000px
+}
+
+.tp-slider-3-overlay::after {
+    background-color: unset !important;
+}
+
+.tp-slider-3-title {
+    background-color: #0000006b;
+    width: fit-content;
+    padding: 10px;
+    font-size: 95px !important;
+}
+
+.tp-slider-3-big-text {
+    color: #ff4a00d1 !important;
+    background-color: #ffffffad !important;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 0px !important;
+    font-family: monospace !important;
+}
+
+.tp-hero-2-funfact-box{
+    bottom: auto !important;
+    background-color: #dddddd85;
+    padding: 35px !important;
+
+}
+
+.swiper-pagination-bullet {
+    height: 7px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+
+/* .tp-slider-dots {
+    background-color: #21252991 ;
+} */
+
+.grid-item{
+    border: 1px solid black;
+}
+
+.tp-service-2-item {
+    gap: 12px;
+}
+
+
+.tp-project-4-item {
+    padding-top: 10px;
+}
+
+.breadcrumb__height {
+    background-position: center !important;
+}
+
+/* footer */
+
+.footer-icons ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tpoffcanvas__social {
+    margin-top: 0px !important;
+}
+
+
+.bi {
+    width: 35px;
+    height: 73px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    align-content: center;
+    padding: 8px;
+    font-size: 25px;
+}
+
+/* services */
+
+.tp-sv-details-left h6 {
+    text-align: left;
+    padding-left: 30px !important;
+}
+
+.tp-sv-details-left p {
+    text-align: left;
+}
+
+/* banner of inner pages */
+.breadcrumb__pt {
+    padding-top: unset !important;
+}
+
+
+
+/* changing colors */
+.tp-about-list ul li i, .tp-section-subtitle, .tp-service-2-icon, .pg-name, .tp-sv-details-left h6 i,
+.tpoffcanvas__contact-title h5, .tp-product-2-title a,
+.tp-main-menu-mobile ul li.has-dropdown-2 > a.expanded {
+    color: #ff4a00d1 !important;
+}
+.back-to-top-btn, .tp-btn-black,.social-icon a:hover, .tp-btn-border.height:hover, .tp-project-filter button.active,
+.tp-project-filter button:hover, .tp-main-menu-mobile ul li.has-dropdown-2 > a.expanded .dropdown-toggle-btn.dropdown-opened,
+.tp-funfact-icon span, .tp-testimonial-quot span {
+    background: #ff4a00d1 !important ;
+}
+
+.tp-funfact-item {
+    border-bottom: 5px solid #ff4a00d1 !important;
+    border-right: 5px solid #ff4a00d1 !important;
+}
+
+.tp-testimonial-author-info {
+    border-bottom: 1px solid #ff4a00d1 !important;
+}
+
+.tp-btn-black {
+    color: black;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .tp-header-tranparent {
+        margin-top: 5px;
+    }
+    .logo {
+        width: 70px;
+    }
+    .breadcrumb__height {
+        background-position:  right !important;
+    }
+    .tp-slider-3-bg {
+        background-position: top !important ;
+    }
+    .tp-slider-3-big-text {
+        font-size: 40px !important;
+    }
+    .tp-slider-3-title {
+        font-size: 30px !important;
+    }
+
+/* about us */
+    .tp-about-bg {
+        padding-bottom: 300px !important;
+    }
+    .canvas canvas {
+        height: 380px !important;
+    }
+
+    /* service details */
+    .tp-sv-details-content {
+        padding: unset !important;
+        margin-top: 60px;   
+    }
+
+}
