@@ -1,5 +1,9 @@
+.custom-container-3 {
+    max-width: 1750px !important;
+}
+
 .logo {
-    width: 100px;
+    width: 85px;
     background-color: white;
     clip-path: circle(49%);
 }
@@ -14,6 +18,8 @@
     color: white;
     font-weight: bold;
     font-size: x-large;
+    padding-left: 15px;
+
 }
 
 .tp-header-menu > nav > ul > li span {
@@ -41,7 +47,7 @@
     background-color: #0000006b;
     width: fit-content;
     padding: 10px;
-    font-size: 95px !important;
+    font-size: 80px !important;
 }
 
 .tp-slider-3-big-text {
@@ -51,6 +57,7 @@
     padding: 10px;
     margin-bottom: 0px !important;
     font-family: monospace !important;
+    font-size: 95px !important;
 }
 
 .tp-hero-2-funfact-box{
