@@ -22,9 +22,19 @@
 
 }
 
+.tp-header-bar {
+    color: var(--tp-common-white);
+    font-weight: bold;
+}
+
 .tp-header-menu > nav > ul > li span {
     font-size: 15px !important;
     /* color: black; */
+}
+
+.tp-slider-3-title-box{
+    position: relative;
+    top: 315px;
 }
 
 .tp-slider-3-bg {
@@ -40,14 +50,14 @@
 }
 
 .tp-slider-3-overlay::after {
-    background-color: unset !important;
+    background-color: rgb(0 0 0 / 10%) !important;
 }
 
 .tp-slider-3-title {
     background-color: #0000006b;
     width: fit-content;
     padding: 10px;
-    font-size: 80px !important;
+    font-size: 70px !important;
 }
 
 .tp-slider-3-big-text {
@@ -57,7 +67,7 @@
     padding: 10px;
     margin-bottom: 0px !important;
     font-family: monospace !important;
-    font-size: 95px !important;
+    font-size: 8ch !important;
 }
 
 .tp-hero-2-funfact-box{
@@ -87,6 +97,12 @@
     gap: 12px;
 }
 
+.tp-brand-wrapper {
+    border: 1px solid #0000004a;
+    padding: 24px
+}
+
+
 
 .tp-project-4-item {
     padding-top: 10px;
@@ -94,6 +110,7 @@
 
 .breadcrumb__height {
     background-position: center !important;
+    height: 500px !important;
 }
 
 /* footer */
@@ -174,6 +191,10 @@
     .logo {
         width: 70px;
     }
+    .tp-header-bar span {
+        display: none;
+    }
+
     .breadcrumb__height {
         background-position:  right !important;
     }
