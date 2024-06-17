@@ -82,6 +82,12 @@
 }
 
 
+/* abt us pg */
+.tp-about-bg {
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* why us */
 
 .tp-about-5-area{
@@ -267,6 +273,12 @@
         margin-bottom: unset !important;
     }
 
+/* abt us pg */
+
+    .tp-about-bg {
+        padding-bottom: unset !important;
+    }
+
 
 
 
@@ -276,9 +288,7 @@
         padding-top: 90px;
         padding-bottom: 80px;
     }
-    .tp-about-bg {
-        padding-bottom: 300px !important;
-    }
+
     .canvas canvas {
         height: 380px !important;
     }
@@ -295,10 +305,6 @@
         padding-bottom: unset;
     }
 
-}
 
-/* abt us pg */
 
-.tp-about-bg {
-    padding-bottom: unset !important;
 }
