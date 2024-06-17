@@ -70,6 +70,40 @@
     font-size: 8ch !important;
 }
 
+
+/* abt us */
+
+.tp-about-4-area{
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+.tp-service-2-title-box {
+    margin-bottom: 50px;
+}
+
+
+/* why us */
+
+.tp-about-5-area{
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+/* clients */
+
+.tp-brand-area{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+
+/* counter */
+
+.tp-funfact-2-area {
+    padding-top: 125px;
+    padding-bottom: 105px;
+}
+
 .tp-hero-2-funfact-box{
     bottom: auto !important;
     background-color: #dddddd85;
@@ -99,9 +133,12 @@
 
 .tp-brand-wrapper {
     border: 1px solid #0000004a;
-    padding: 24px
+    padding: 35px
 }
 
+.tp-funfact-2-title {
+    padding-bottom: 10px;
+}
 
 
 .tp-project-4-item {
@@ -208,7 +245,37 @@
         font-size: 30px !important;
     }
 
-/* about us */
+
+/* abt us */
+
+    .tp-about-4-area{
+        padding-top: 75px;
+        padding-bottom: 90px;
+    }
+
+    .tp-service-2-title-box {
+        margin-bottom: unset;
+    }
+
+    .front {
+        height: 400px !important;
+        margin-top: unset;
+        
+    }
+
+    .tp-about-4-left {
+        margin-bottom: unset !important;
+    }
+
+
+
+
+/* why us */
+
+    .tp-about-5-area{
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
     .tp-about-bg {
         padding-bottom: 300px !important;
     }
@@ -222,4 +289,16 @@
         margin-top: 60px;   
     }
 
+    /* counter */
+    
+    .tp-funfact-2-area {
+        padding-bottom: unset;
+    }
+
+}
+
+/* abt us pg */
+
+.tp-about-bg {
+    padding-bottom: unset !important;
 }
