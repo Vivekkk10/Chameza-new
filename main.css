@@ -1,3 +1,12 @@
+/* ----------------- index -----------*/
+
+
+/* navbar */
+.tp-header-tranparent{
+    /* background-color: #ffffffdb; */
+    color: black;
+}
+
 .custom-container-3 {
     max-width: 1750px !important;
 }
@@ -9,10 +18,6 @@
 }
 
 
-.tp-header-tranparent{
-    /* background-color: #ffffffdb; */
-    color: black;
-}
 
 .logo-title {
     color: white;
@@ -22,25 +27,23 @@
 
 }
 
-.tp-header-bar {
-    color: var(--tp-common-white);
-    font-weight: bold;
-}
-
 .tp-header-menu > nav > ul > li span {
     font-size: 15px !important;
     /* color: black; */
 }
 
-.tp-slider-3-title-box{
-    position: relative;
-    top: 315px;
+.tp-header-bar {
+    color: var(--tp-common-white);
+    font-weight: bold;
 }
 
-.tp-slider-3-bg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: initial !important;
+/* navbar ends */
+
+
+/* sliders */
+
+.tp-slider-dots {
+    bottom: 80px !important;
 }
 
 .tp-slider-3-height{
@@ -48,18 +51,18 @@
     padding-bottom: 200px !important;
     height: 1000px
 }
-
+.tp-slider-3-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial !important;
+}
 .tp-slider-3-overlay::after {
     background-color: rgb(0 0 0 / 10%) !important;
 }
-
-.tp-slider-3-title {
-    background-color: #0000006b;
-    width: fit-content;
-    padding: 10px;
-    font-size: 70px !important;
+.tp-slider-3-title-box{
+    position: relative;
+    top: 315px;
 }
-
 .tp-slider-3-big-text {
     color: #ff4a00d1 !important;
     background-color: #ffffffad !important;
@@ -69,6 +72,21 @@
     font-family: monospace !important;
     font-size: 8ch !important;
 }
+.tp-slider-3-title {
+    background-color: #0000006b;
+    width: fit-content;
+    padding: 10px;
+    font-size: 70px !important;
+}
+
+.tp-hero-2-funfact-box{
+    bottom: auto !important;
+    background-color: #dddddd85;
+    padding: 35px !important;
+    
+}
+
+/* sliders end */
 
 
 /* abt us */
@@ -80,20 +98,33 @@
 .tp-service-2-title-box {
     margin-bottom: 50px;
 }
-
-
-/* abt us pg */
-.tp-about-bg {
-    margin-top: 120px;
-    padding-bottom: 120px;
+.front {
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
 }
+.tp-about-4-list ul li i {
+    color: #ff4a00d1 !important;
+}
+
+/* abt us end */
+
+
 
 /* why us */
 
 .tp-about-5-area{
     padding-top: 140px;
     padding-bottom: 150px;
+    background-color: #dddddd3b;
 }
+
+.tp-service-2-item {
+    gap: 12px;
+}
+
+/* why us end */
+
 
 /* clients */
 
@@ -101,6 +132,13 @@
     padding-top: 100px;
     padding-bottom: 90px;
 }
+.tp-brand-wrapper {
+    border: 1px solid #0000004a;
+    padding: 35px
+}
+
+/* clients end */
+
 
 
 /* counter */
@@ -110,51 +148,16 @@
     padding-bottom: 105px;
 }
 
-.tp-hero-2-funfact-box{
-    bottom: auto !important;
-    background-color: #dddddd85;
-    padding: 35px !important;
-
-}
-
-.swiper-pagination-bullet {
-    height: 7px !important;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: white !important;
-}
-
-/* .tp-slider-dots {
-    background-color: #21252991 ;
-} */
-
-.grid-item{
-    border: 1px solid black;
-}
-
-.tp-service-2-item {
-    gap: 12px;
-}
-
-.tp-brand-wrapper {
-    border: 1px solid #0000004a;
-    padding: 35px
-}
-
 .tp-funfact-2-title {
     padding-bottom: 10px;
 }
 
+/* counter ends */
 
-.tp-project-4-item {
-    padding-top: 10px;
-}
 
-.breadcrumb__height {
-    background-position: center !important;
-    height: 500px !important;
-}
+/* -------------- index page ends----------- */
+
+
 
 /* footer */
 
@@ -162,12 +165,60 @@
     display: flex;
     justify-content: space-evenly;
 }
-
 .tpoffcanvas__social {
     margin-top: 0px !important;
 }
 
+/* footer ends */
 
+
+
+/* common inner page styles */
+
+.breadcrumb__pt {
+    padding-top: unset !important;
+}
+
+.breadcrumb__height {
+    background-position: center !important;
+    height: 500px !important;
+}
+
+/* common inner page style ends */
+
+
+
+/* about us page */
+
+.tp-about-bg {
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* about us page ends */
+
+
+
+/* products page */
+
+.grid-item{
+    border: 1px solid black;
+}
+
+.tp-project-4-item {
+    padding-top: 10px;
+}
+
+/* products page ends */
+
+
+
+.swiper-pagination-bullet {
+    height: 7px !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
 .bi {
     width: 35px;
     height: 73px;
@@ -177,23 +228,6 @@
     padding: 8px;
     font-size: 25px;
 }
-
-/* services */
-
-.tp-sv-details-left h6 {
-    text-align: left;
-    padding-left: 30px !important;
-}
-
-.tp-sv-details-left p {
-    text-align: left;
-}
-
-/* banner of inner pages */
-.breadcrumb__pt {
-    padding-top: unset !important;
-}
-
 
 
 /* changing colors */
@@ -221,8 +255,7 @@
     color: black;
 }
 
-
-
+/* changing colors end */
 
 
 
@@ -236,6 +269,10 @@
     }
     .tp-header-bar span {
         display: none;
+    }
+
+    .tp-slider-3-height{
+        height: 935px;
     }
 
     .breadcrumb__height {
@@ -253,58 +290,49 @@
 
 
 /* abt us */
-
     .tp-about-4-area{
         padding-top: 75px;
         padding-bottom: 90px;
     }
-
     .tp-service-2-title-box {
         margin-bottom: unset;
     }
-
     .front {
-        height: 400px !important;
+        height: 360px !important;
         margin-top: unset;
+        margin: auto !important;
         
     }
-
     .tp-about-4-left {
         margin-bottom: unset !important;
     }
 
 /* abt us pg */
-
     .tp-about-bg {
-        padding-bottom: unset !important;
+        padding-bottom: 50px;
+        margin-top: 50px;
     }
 
 
 
 
 /* why us */
-
     .tp-about-5-area{
         padding-top: 90px;
         padding-bottom: 80px;
     }
-
     .canvas canvas {
         height: 380px !important;
     }
 
-    /* service details */
+/* service details */
     .tp-sv-details-content {
         padding: unset !important;
         margin-top: 60px;   
     }
 
-    /* counter */
-    
+/* counter */
     .tp-funfact-2-area {
         padding-bottom: unset;
     }
-
-
-
 }
